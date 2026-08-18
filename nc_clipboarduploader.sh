@@ -8,9 +8,6 @@ NC_USER="your_username"
 NC_PASS="your_app_password"                       # App Password recommended
 NC_FOLDER="Screenshots"                          # Target folder in Nextcloud
 
-# ==============================================================================
-# SCRIPT LOGIC
-# ==============================================================================
 
 # 1. Check if an image is available in the clipboard
 if ! wl-paste -t image/png > /dev/null 2>&1; then
