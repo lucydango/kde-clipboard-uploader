@@ -105,7 +105,7 @@ The easiest way to use this is binding the script to a key like PageDown or Supe
 ## How to use it
 
 1. Take a screenshot or copy any image to your clipboard.
-2. Press PageDown.
+2. Press PageDown or your selected hotkey.
 3. Hit Ctrl+V to drop your fresh link into Discord, Reddit, Matrix, or wherever!
 
 ---
