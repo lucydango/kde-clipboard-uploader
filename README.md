@@ -25,14 +25,54 @@ Instead of fighting Wayland permissions or Spectacle bugs, these scripts bypass 
 
 You just need wl-clipboard (to read/write the clipboard under Wayland) and curl.
 
-Arch Linux / CachyOS:
+Fedora / Bazzite / Silverblue:
+```bash
+# Standard Fedora
+sudo dnf install wl-clipboard curl
+
+# Bazzite / Fedora Atomic (if not pre-installed)
+rpm-ostree install wl-clipboard curl
+```
+
+Arch Linux / CachyOS / EndeavourOS / Manjaro:
 ```bash
 sudo pacman -S wl-clipboard curl
 ```
 
-Ubuntu / Debian:
+Ubuntu / Debian / Pop!_OS / Linux Mint:
 ```bash
 sudo apt install wl-clipboard curl
+```
+
+openSUSE:
+```bash
+sudo zypper install wl-clipboard curl
+```
+
+SteamOS (Steam Deck Desktop Mode):
+wl-clipboard and curl are pre-installed by default.
+
+---
+
+## Quick Setup
+
+1. Grab the repo:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   cd YOUR_REPO_NAME
+   ```
+
+2. Make the scripts executable:
+   ```bash
+   chmod +x nc_clipboarduploader.sh catbox_clipboarduploader.sh
+   ```
+
+3. Move them somewhere in your $PATH (recommended):
+   ```bash
+   mkdir -p ~/.local/bin
+   cp nc_clipboarduploader.sh catbox_clipboarduploader.sh ~/.local/bin/
+   ```
+
 ```
 
 ---
