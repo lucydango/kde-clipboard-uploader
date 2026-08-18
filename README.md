@@ -1,5 +1,7 @@
 # Clipboard Screenshot Uploaders (Wayland / KDE Plasma)
 
+**README.md got written by AI because i am bad in stuff like that :(**
+
 A collection of simple Bash scripts to take whatever image is in your clipboard and upload it straight to Nextcloud or Catbox.moe with a single hotkey press. 
 
 ### Why this exists
@@ -39,7 +41,7 @@ sudo apt install wl-clipboard curl
 
 1. Grab the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git clone https://github.com/xxApfelsaft/kde-clipboard-uploader.git
    cd kde-clipboard-uploader
    ```
 
