@@ -58,29 +58,6 @@ wl-clipboard and curl are pre-installed by default.
 
 1. Grab the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
-   ```
-
-2. Make the scripts executable:
-   ```bash
-   chmod +x nc_clipboarduploader.sh catbox_clipboarduploader.sh
-   ```
-
-3. Move them somewhere in your $PATH (recommended):
-   ```bash
-   mkdir -p ~/.local/bin
-   cp nc_clipboarduploader.sh catbox_clipboarduploader.sh ~/.local/bin/
-   ```
-
-```
-
----
-
-## Quick Setup
-
-1. Grab the repo:
-   ```bash
    git clone https://github.com/xxApfelsaft/kde-clipboard-uploader.git
    cd kde-clipboard-uploader
    ```
@@ -97,6 +74,7 @@ wl-clipboard and curl are pre-installed by default.
    ```
 
 ---
+
 
 ## Configuration
 
